@@ -243,11 +243,36 @@ a.works-link {
 	height: 4rem;
 	background-color: #BB9C36 !important;
 	border-radius: 5px;
-	font-family: Poppins;
+	font-family: "Poppins";
 	font-weight: 600;
 	font-size: 1rem;
 	line-height: 1em;
 	text-align: center;
 	text-transform: uppercase;
 	color: #FFFFFF !important; 
+}
+
+
+/*-------media query for smaller devices-----*/
+@media screen and (max-width: 340px) {
+	.footer {
+		font-weight: 700;
+		font-size: 7px;
+		line-height: 21px;
+		color: #63331B;
+	}
+
+	.form-button {
+		width: 60vw;
+		height: 4rem;
+		background-color: #BB9C36 !important;
+		border-radius: 5px;
+		font-family: "Poppins";
+		font-weight: 600;
+		font-size: 1rem;
+		line-height: 1em;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF !important; 
+}
 }
