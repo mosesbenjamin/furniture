@@ -231,7 +231,7 @@ a.works-link {
 
 .input {
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 14px;
 	line-height: 54px;
 	text-transform: uppercase;
 
@@ -254,10 +254,11 @@ a.works-link {
 
 
 /*-------media query for smaller devices-----*/
-@media screen and (max-width: 340px) {
+/*-------media query for tablet devices-----*/
+@media screen and (max-width: 768px) {
 	.footer {
 		font-weight: 700;
-		font-size: 7px;
+		font-size: 14px;
 		line-height: 21px;
 		color: #63331B;
 	}
